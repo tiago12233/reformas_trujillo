@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AW Contratistas S.A.C. | Remodelación y Construcción de Lujo en Trujillo</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600;700;800&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#000000",
+                        "secondary": "#735c00", // Gold-ish
+                        "secondary-container": "#fed65b",
+                        "on-secondary-container": "#745c00",
+                        "surface": "#fbf8ff",
+                        "outline": "#7e7576",
+                        "surface-container": "#eeedf7",
+                        "gold-accent": "#D4AF37",
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    fontFamily: {
+                        "headline": ["Manrope", "sans-serif"],
+                        "body": ["Inter", "sans-serif"]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .gold-gradient {
+            background: linear-gradient(135deg, #D4AF37 0%, #F1D592 50%, #D4AF37 100%);
+        }
+        .before-after-slider {
+            position: relative;
+            overflow: hidden;
+            user-select: none;
+        }
+        .before-after-slider img {
+            width: 100%;
+            display: block;
+        }
+        .slider-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        .slider-handle {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: white;
+            cursor: ew-resize;
+            z-index: 10;
+        }
+        .slider-handle::after {
+            content: "↔";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 40px;
+            height: 40px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-white font-body text-primary selection:bg-gold-accent selection:text-white">
+<!-- WhatsApp Floating Button -->
+<a class="fixed bottom-8 right-8 z-[100] bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform flex items-center justify-center" href="https://wa.me/51900000000" target="_blank">
+<svg class="w-8 h-8" fill="currentColor" viewbox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.414 0 0 5.414 0 12.05c0 2.123.553 4.197 1.604 6.02L0 24l6.145-1.612a11.854 11.854 0 005.903 1.564h.005c6.637 0 12.05-5.414 12.05-12.05a11.815 11.815 0 00-3.393-8.525z"></path></svg>
+</a>
+<!-- Top Navigation -->
+<nav class="sticky top-0 z-[90] bg-white/90 backdrop-blur-md border-b border-neutral-100 px-6 py-4 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="text-primary" data-icon="Architecture" data-weight="fill">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">architecture</span>
+</div>
+<h1 class="font-headline font-extrabold text-xl tracking-tight">AW CONTRATISTAS</h1>
+</div>
+<div class="hidden md:flex items-center gap-8 text-sm font-semibold uppercase tracking-wider">
+<a class="hover:text-gold-accent transition-colors" href="#servicios">Servicios</a>
+<a class="hover:text-gold-accent transition-colors" href="#proceso">Proceso</a>
+<a class="hover:text-gold-accent transition-colors" href="#portafolio">Proyectos</a>
+<a class="hover:text-gold-accent transition-colors" href="#contacto">Contacto</a>
+</div>
+<a class="flex items-center gap-2 bg-primary text-white px-5 py-2 rounded-full hover:bg-neutral-800 transition-all" href="tel:+51900000000">
+<span class="material-symbols-outlined text-sm">phone</span>
+<span class="font-bold text-xs uppercase tracking-widest">Llamar Ahora</span>
+</a>
+</nav>
+<!-- Hero Section -->
+<section class="relative h-[839px] flex items-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<div class="w-full h-full bg-cover bg-center scale-105 transform" data-alt="A cinematic, high-end photograph of a luxury living room remodel in Trujillo, Peru. The space features soaring ceilings, floor-to-ceiling windows overlooking a sunset, custom marble flooring, and minimalist designer furniture. Warm, sophisticated lighting accentuates the architectural details and premium materials. The overall mood is prestigious, exclusive, and breathtakingly modern." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCM5PHJv8BzP2zdZNPWpNb0WrIRXwuWXf4V9FegJ3zdeus4T5PHdK-CBljTDsfMYcg5Nif6bn_gHmcbkHQ4tduwjWAB2-7gadXrAWqKOMieb-Re2hSPoS6XvZt_pIxbsF9xzkP41eE-392mm8Cukuv6T92QugGyb4uSjNJfpWnA61zok71yG1PSV4b4TcNhpnTfmDb7yoOXvQYc2el23XQxEfJnhdeBPFfBJqLpCq1Zf5D04Zhm_KqVV6nudEcggY9eKmSvlqDhnWMJ')"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto px-6 md:px-12 w-full">
+<div class="max-w-3xl space-y-8">
+<div class="inline-block border-l-4 border-gold-accent pl-4 text-white/80 font-bold uppercase tracking-[0.2em] text-sm mb-4">Arquitectura de Vanguardia</div>
+<h1 class="text-white text-5xl md:text-7xl font-headline font-extrabold leading-[1.1] tracking-tight">
+                    Remodelamos y construimos espacios que <span class="text-gold-accent">aumentan el valor</span> de tu propiedad
+                </h1>
+<p class="text-white/80 text-lg md:text-xl max-w-xl font-light leading-relaxed">
+                    Diseño y construcción de lujo en Trujillo. Transformamos su visión en realidad con acabados premium y gestión BIM de clase mundial.
+                </p>
+<div class="flex flex-col sm:flex-row gap-4 pt-6">
+<button class="gold-gradient text-black font-bold px-10 py-5 rounded-full shadow-xl hover:scale-105 transition-transform uppercase tracking-widest text-sm">
+                        Solicitar cotización
+                    </button>
+<button class="bg-transparent border-2 border-white/30 text-white font-bold px-10 py-5 rounded-full backdrop-blur-sm hover:bg-white hover:text-black transition-all uppercase tracking-widest text-sm">
+                        Ver proyectos
+                    </button>
+</div>
+<div class="flex gap-12 pt-12 border-t border-white/10">
+<div>
+<p class="text-gold-accent text-3xl font-extrabold">10+</p>
+<p class="text-white/60 text-xs uppercase font-bold tracking-widest">Años de Experiencia</p>
+</div>
+<div>
+<p class="text-gold-accent text-3xl font-extrabold">200+</p>
+<p class="text-white/60 text-xs uppercase font-bold tracking-widest">Proyectos Entregados</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Trust Bar -->
+<section class="py-12 bg-white overflow-hidden border-b border-neutral-100">
+<div class="max-w-7xl mx-auto px-6">
+<p class="text-center text-neutral-400 text-xs font-bold uppercase tracking-[0.3em] mb-8">Nuestros Socios Estratégicos</p>
+<div class="flex flex-wrap justify-center items-center gap-12 md:gap-24 opacity-40 grayscale hover:grayscale-0 transition-all">
+<div class="h-10 w-32 bg-neutral-200 rounded flex items-center justify-center font-bold text-neutral-500">CELIMA</div>
+<div class="h-10 w-32 bg-neutral-200 rounded flex items-center justify-center font-bold text-neutral-500">TREBOL</div>
+<div class="h-10 w-32 bg-neutral-200 rounded flex items-center justify-center font-bold text-neutral-500">SIKA</div>
+<div class="h-10 w-32 bg-neutral-200 rounded flex items-center justify-center font-bold text-neutral-500">PROMART</div>
+<div class="h-10 w-32 bg-neutral-200 rounded flex items-center justify-center font-bold text-neutral-500">ACEROS AREQUIPA</div>
+</div>
+</div>
+</section>
+<!-- Services Grid -->
+<section class="py-24 bg-neutral-50" id="servicios">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-16 space-y-4">
+<span class="text-gold-accent font-bold uppercase tracking-widest text-xs">Nuestra Experiencia</span>
+<h2 class="text-4xl md:text-5xl font-headline font-extrabold">Servicios Integrales</h2>
+<div class="w-20 h-1 bg-gold-accent mx-auto"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Service 1 -->
+<div class="group relative overflow-hidden bg-white p-8 rounded-xl shadow-sm hover:shadow-2xl transition-all duration-500 border border-neutral-100">
+<div class="mb-6 text-gold-accent" data-icon="home_work" data-weight="regular">
+<span class="material-symbols-outlined text-5xl">home_work</span>
+</div>
+<h3 class="text-2xl font-bold mb-4 group-hover:text-gold-accent transition-colors">Remodelaciones</h3>
+<p class="text-neutral-500 leading-relaxed">Transformamos espacios antiguos en hogares modernos y funcionales con acabados de alta gama.</p>
+<div class="mt-6 flex items-center gap-2 text-primary font-bold text-sm uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
+                        Saber más <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</div>
+<!-- Service 2 -->
+<div class="group relative overflow-hidden bg-white p-8 rounded-xl shadow-sm hover:shadow-2xl transition-all duration-500 border border-neutral-100">
+<div class="mb-6 text-gold-accent" data-icon="architecture" data-weight="regular">
+<span class="material-symbols-outlined text-5xl">architecture</span>
+</div>
+<h3 class="text-2xl font-bold mb-4 group-hover:text-gold-accent transition-colors">Diseño Arquitectónico</h3>
+<p class="text-neutral-500 leading-relaxed">Planos detallados y visualizaciones 3D realistas que capturan la esencia de tu proyecto soñado.</p>
+<div class="mt-6 flex items-center gap-2 text-primary font-bold text-sm uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
+                        Saber más <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</div>
+<!-- Service 3 -->
+<div class="group relative overflow-hidden bg-white p-8 rounded-xl shadow-sm hover:shadow-2xl transition-all duration-500 border border-neutral-100">
+<div class="mb-6 text-gold-accent" data-icon="chair" data-weight="regular">
+<span class="material-symbols-outlined text-5xl">chair</span>
+</div>
+<h3 class="text-2xl font-bold mb-4 group-hover:text-gold-accent transition-colors">Diseño de Interiores</h3>
+<p class="text-neutral-500 leading-relaxed">Selección curada de mobiliario, iluminación y paleta de colores para crear ambientes exclusivos.</p>
+<div class="mt-6 flex items-center gap-2 text-primary font-bold text-sm uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
+                        Saber más <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</div>
+<!-- Service 4 -->
+<div class="group relative overflow-hidden bg-white p-8 rounded-xl shadow-sm hover:shadow-2xl transition-all duration-500 border border-neutral-100">
+<div class="mb-6 text-gold-accent" data-icon="foundation" data-weight="regular">
+<span class="material-symbols-outlined text-5xl">foundation</span>
+</div>
+<h3 class="text-2xl font-bold mb-4 group-hover:text-gold-accent transition-colors">Construcción</h3>
+<p class="text-neutral-500 leading-relaxed">Ejecución impecable de obras civiles con los más altos estándares de seguridad y calidad técnica.</p>
+<div class="mt-6 flex items-center gap-2 text-primary font-bold text-sm uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
+                        Saber más <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</div>
+<!-- Service 5 -->
+<div class="group relative overflow-hidden bg-white p-8 rounded-xl shadow-sm hover:shadow-2xl transition-all duration-500 border border-neutral-100">
+<div class="mb-6 text-gold-accent" data-icon="add_business" data-weight="regular">
+<span class="material-symbols-outlined text-5xl">add_business</span>
+</div>
+<h3 class="text-2xl font-bold mb-4 group-hover:text-gold-accent transition-colors">Ampliaciones</h3>
+<p class="text-neutral-500 leading-relaxed">Crecimiento inteligente de tu propiedad respetando la armonía estética y estructural existente.</p>
+<div class="mt-6 flex items-center gap-2 text-primary font-bold text-sm uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
+                        Saber más <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</div>
+<!-- Service 6 -->
+<div class="group relative overflow-hidden bg-white p-8 rounded-xl shadow-sm hover:shadow-2xl transition-all duration-500 border border-neutral-100">
+<div class="mb-6 text-gold-accent" data-icon="engineering" data-weight="regular">
+<span class="material-symbols-outlined text-5xl">engineering</span>
+</div>
+<h3 class="text-2xl font-bold mb-4 group-hover:text-gold-accent transition-colors">Supervisión</h3>
+<p class="text-neutral-500 leading-relaxed">Control riguroso de tiempos, costos y calidad en obra para tu total tranquilidad.</p>
+<div class="mt-6 flex items-center gap-2 text-primary font-bold text-sm uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
+                        Saber más <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Before and After Interactive Slider -->
+<section class="py-24 bg-white">
+<div class="max-w-5xl mx-auto px-6">
+<div class="text-center mb-12">
+<h2 class="text-3xl font-headline font-extrabold mb-4">El Poder de la Transformación</h2>
+<p class="text-neutral-500">Desliza para ver el cambio de una cocina remodelada en el Golf, Trujillo.</p>
+</div>
+<div class="before-after-slider rounded-2xl shadow-2xl border-4 border-white aspect-video md:aspect-[21/9]">
+<!-- After Image -->
+<img alt="After" data-alt="A luxurious, ultra-modern kitchen after a complete renovation. High-gloss white cabinetry, a large waterfall kitchen island made of Calacatta marble, built-in professional appliances, and sleek pendant lighting. The space is bright, spacious, and extremely clean. Modern luxury aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDra78Fn3Tj7bYr5OmS9NPZObTtcejIlAl9Uc1awXPd7RfM5Of3PVH1YsEXo-srb1kftctrsBdQs8EWj9tHMquPwJs2dJEnlfqzIB_5DmIGK05azB9Npkyqe0apyXtZbYsGAzszC_V_v7cWof8471_hQtmtyvMWih0rN9RFNr4shx4GRmcvaaWYW0o8skQHZwLNTkGj72P_VvV5AYw6DFqYgIJegliyVuUN_AurNW81IVNQ4VoHzsNONX3EA-Cr4zOWkQiPI4BJX8yL"/>
+<!-- Before Image (Overlay) -->
+<div class="slider-overlay" id="slider-overlay" style="width: 50%;">
+<img alt="Before" class="h-full object-cover" data-alt="An outdated, dimly lit 1990s kitchen before renovation. Features old wooden cabinets with worn paint, basic tiled countertops with grout stains, fluorescent lighting, and cluttered shelves. The floor is old brown tile. Dull and cramped atmosphere." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCULlI48bKEP86geJpNkTzA0w3Wie4trW-R6aaiv26UtF-nQB75fzuo-mcjXHN64YMSfkcD_kBRRAkxg1u2uwsQNQ9nDFBbJ7pv98UZCAaXEWYQzai_9LURlMzrw0Q9AB4nj2bLj4RbclBhfYansigawNnvxWD4M4bUTWkHxZ8kbuSYhiRsvJUFOjrvzEj70TFLRG95oCpuNq_VOPU54zU-pPWGQIxMumZhSeqtoy-bIb5qyM6_vD68Z4tNH_TdOxnBM7VKa1ggHcV"/>
+</div>
+<div class="slider-handle" id="slider-handle" style="left: 50%;"></div>
+</div>
+</div>
+</section>
+<!-- Process -->
+<section class="py-24 bg-primary text-white overflow-hidden" id="proceso">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8">
+<div>
+<span class="text-gold-accent font-bold uppercase tracking-widest text-xs">Transparencia Total</span>
+<h2 class="text-4xl md:text-5xl font-headline font-extrabold mt-4">Nuestro Proceso</h2>
+</div>
+<p class="text-white/60 max-w-sm">Gestionamos cada etapa con precisión milimétrica para asegurar resultados extraordinarios.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-5 gap-8 relative">
+<!-- Step 1 -->
+<div class="relative z-10 group">
+<div class="text-6xl font-extrabold text-white/5 absolute -top-8 left-0 group-hover:text-gold-accent/20 transition-colors">01</div>
+<div class="mt-12 space-y-4">
+<h4 class="text-xl font-bold">Visita Inicial</h4>
+<p class="text-white/50 text-sm">Entendemos tus necesidades y evaluamos el potencial real del espacio.</p>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="relative z-10 group">
+<div class="text-6xl font-extrabold text-white/5 absolute -top-8 left-0 group-hover:text-gold-accent/20 transition-colors">02</div>
+<div class="mt-12 space-y-4">
+<h4 class="text-xl font-bold">Diseño &amp; BIM</h4>
+<p class="text-white/50 text-sm">Creamos el concepto visual y el modelo digital detallado del proyecto.</p>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="relative z-10 group">
+<div class="text-6xl font-extrabold text-white/5 absolute -top-8 left-0 group-hover:text-gold-accent/20 transition-colors">03</div>
+<div class="mt-12 space-y-4">
+<h4 class="text-xl font-bold">Presupuesto</h4>
+<p class="text-white/50 text-sm">Presentación de costos transparentes y cronograma de ejecución.</p>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="relative z-10 group">
+<div class="text-6xl font-extrabold text-white/5 absolute -top-8 left-0 group-hover:text-gold-accent/20 transition-colors">04</div>
+<div class="mt-12 space-y-4">
+<h4 class="text-xl font-bold">Construcción</h4>
+<p class="text-white/50 text-sm">Ejecución por personal calificado bajo supervisión constante.</p>
+</div>
+</div>
+<!-- Step 5 -->
+<div class="relative z-10 group">
+<div class="text-6xl font-extrabold text-white/5 absolute -top-8 left-0 group-hover:text-gold-accent/20 transition-colors">05</div>
+<div class="mt-12 space-y-4">
+<h4 class="text-xl font-bold">Entrega Llave</h4>
+<p class="text-white/50 text-sm">Inspección final y entrega de tu nuevo espacio listo para habitar.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Portfolio Masonry -->
+<section class="py-24 bg-white" id="portafolio">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex justify-between items-end mb-16">
+<div>
+<h2 class="text-4xl font-headline font-extrabold">Portafolio Premium</h2>
+<p class="text-neutral-500 mt-2">Obras que definen un nuevo estándar en Trujillo.</p>
+</div>
+<button class="text-primary font-bold border-b-2 border-gold-accent hover:text-gold-accent transition-colors pb-1 uppercase tracking-widest text-xs">Ver Galería Completa</button>
+</div>
+<div class="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6">
+<!-- Project 1 -->
+<div class="break-inside-avoid group relative rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all">
+<img class="w-full" data-alt="A beautiful, contemporary beach house exterior in Huanchaco, Trujillo. The architecture features minimalist white concrete planes, large glass walls, and wooden accents. The house is surrounded by desert landscaping and looks out over the Pacific Ocean at dusk. Luxury coastal living aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBs7Dy9nUyhNVldZJMFMpMxyHJFsHJcyr6ljkCLX5_QeaiyIwScSw1XS7l6BMeZHWExM7itZCqEFvwsn3yWn8IjfY1vvxzYNqqQv93-a5QM5mwP3_-yPI1nJSyJunKHGg-Jq-Q7e23eRb9tFCSx1WouPiumQdm0c_TsKG1sAwB569AIeimjy5plmesUSTVUlswxWuZhPJnj1Az0nP5lDsi2K_qqlGZ5Z90cDTBvQ0U896qWNTVFIPz4pdCCfaihFvIIrlr6F0J_1qz8"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-8 flex flex-col justify-end">
+<p class="text-gold-accent text-xs font-bold uppercase tracking-widest mb-2">Residencial</p>
+<h4 class="text-white text-xl font-bold">Casa Huanchaco</h4>
+<p class="text-white/60 text-sm">Huanchaco, Trujillo • 8 Meses</p>
+</div>
+</div>
+<!-- Project 2 -->
+<div class="break-inside-avoid group relative rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all">
+<img class="w-full" data-alt="A modern office lobby interior design for a high-end contractor firm. Double-height ceilings, a dramatic slate stone feature wall with a backlit gold logo, minimalist reception desk, and designer seating area. Polished concrete floors and warm architectural lighting. Professional and sophisticated vibe." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvgYbw3qtbM7MgXPYkz27WdL94dmrMNQLCIxhatGvje4ejgGp0729HDexNDigaYJVgBTv3f7W5Q0tAovpyAcNdN8Mx7KX7EPAoKw5zNf6db3trZjE_MA8NmP6MZN0eb3sdoyKcDnL49He2j-PnB-aOaGkShr4GxtjoYipnES0zt9vmjBQQ37xHHQo7eK8eE_pdoFGzCzbxflkQgcmurVsccsKod3OpKPuFPgLi0F1fGjWCouCHyjL7tR7KZPaIf--srsxqBBiexWiC"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-8 flex flex-col justify-end">
+<p class="text-gold-accent text-xs font-bold uppercase tracking-widest mb-2">Comercial</p>
+<h4 class="text-white text-xl font-bold">Centro Empresarial</h4>
+<p class="text-white/60 text-sm">El Golf, Trujillo • 12 Meses</p>
+</div>
+</div>
+<!-- Project 3 -->
+<div class="break-inside-avoid group relative rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all">
+<img class="w-full" data-alt="A luxury bedroom suite remodel. Soft, ambient lighting, plush neutral-toned headboard, dark wood panelling, and a private balcony overlooking a manicured garden. Minimalist and cozy atmosphere with premium textiles and textures. High-end residential photography style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDHXIJodXWaKYeoPM-rikjhr6PE82n2LUAUfbniYlla_GL8_Z5c78R0jQli9iF2IVo8Qs3V5_mOHCuVBHkt5bfBWLz22JSZUWJNc7QA2apBYuiLkRZVt1RdOXI0j7UMrZM5q9OKtW8-sFJH2N_RfxmNEY5HOY4Z_Q4B7N2l6UIPv3kP3P21jSPytEbikRsxYwQR72XZPi-J1PYK3EVEqnQg_SHJMAYVzPQtuR0HRLJIiiKIifHCLzIrv2SxGx6y62_q5CotQ2MAaC6"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-8 flex flex-col justify-end">
+<p class="text-gold-accent text-xs font-bold uppercase tracking-widest mb-2">Remodelación</p>
+<h4 class="text-white text-xl font-bold">Penthouse Primavera</h4>
+<p class="text-white/60 text-sm">Primavera, Trujillo • 4 Meses</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Differential Value -->
+<section class="py-24 bg-neutral-50">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div class="space-y-8">
+<h2 class="text-4xl md:text-5xl font-headline font-extrabold leading-tight">¿Por qué elegirnos para su próximo proyecto?</h2>
+<p class="text-neutral-500 text-lg leading-relaxed">No solo construimos estructuras; creamos legados. Nuestra metodología combina la artesanía tradicional con la tecnología más avanzada del mercado.</p>
+<div class="space-y-6">
+<div class="flex items-start gap-4">
+<div class="bg-primary text-gold-accent p-2 rounded-lg" data-icon="model_training" data-weight="regular">
+<span class="material-symbols-outlined">model_training</span>
+</div>
+<div>
+<h4 class="font-bold text-lg">Metodología BIM</h4>
+<p class="text-neutral-500 text-sm">Reducimos errores y costos mediante el modelado digital inteligente antes de la construcción.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="bg-primary text-gold-accent p-2 rounded-lg" data-icon="verified" data-weight="regular">
+<span class="material-symbols-outlined">verified</span>
+</div>
+<div>
+<h4 class="font-bold text-lg">Garantía Extendida</h4>
+<p class="text-neutral-500 text-sm">Ofrecemos hasta 5 años de garantía en acabados y 10 años en estructuras.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-white p-8 rounded-2xl shadow-sm border border-neutral-100 flex flex-col items-center text-center">
+<span class="text-4xl font-extrabold text-primary mb-2">100%</span>
+<p class="text-xs uppercase font-bold text-neutral-400">Plazos Cumplidos</p>
+</div>
+<div class="bg-white p-8 rounded-2xl shadow-sm border border-neutral-100 flex flex-col items-center text-center mt-8">
+<span class="text-4xl font-extrabold text-primary mb-2">50+</span>
+<p class="text-xs uppercase font-bold text-neutral-400">Arquitectos Aliados</p>
+</div>
+<div class="bg-white p-8 rounded-2xl shadow-sm border border-neutral-100 flex flex-col items-center text-center">
+<span class="text-4xl font-extrabold text-primary mb-2">Premium</span>
+<p class="text-xs uppercase font-bold text-neutral-400">Materiales Importados</p>
+</div>
+<div class="bg-white p-8 rounded-2xl shadow-sm border border-neutral-100 flex flex-col items-center text-center mt-8">
+<span class="text-4xl font-extrabold text-primary mb-2">A++</span>
+<p class="text-xs uppercase font-bold text-neutral-400">Calificación Clientes</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonials -->
+<section class="py-24 bg-white">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-headline font-extrabold">Lo que dicen nuestros clientes</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<!-- Testimonial 1 -->
+<div class="space-y-6">
+<div class="flex text-gold-accent">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-neutral-600 italic">"Increíble atención al detalle. Transformaron mi departamento en una verdadera joya. El equipo fue puntual y muy profesional en todo momento."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="A professional headshot of a sophisticated Peruvian businesswoman in her 40s. She is smiling warmly, wearing a modern charcoal blazer. Bright studio lighting with a neutral background. High-end professional portrait style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuByFUinOmdIs2efTRoNQKZX1jW_AIbC-WYcaIHE82gflKveoAj72lmZGvv9mLG_1ZFt3iP9HsvuZzYTGkHerUqbmQAW_qjP30sq6oegnnNuCYUxQLrW0KWTRmnUKEHfwZ90qx_J-OXX8oYNRRrM70ivQZuFdMDqStTkVwdwOg6Z2EJ9UA71jToLwnoI438MzjXH5P5jf3vqs4Kgyluy0DGmim8xlgKLzMXC33RiZDapH5Oo_5Ad-h-Svl0nc46V5qjGKIn3TzvP--ue"/>
+</div>
+<div>
+<p class="font-bold text-sm">Elena Valdivia</p>
+<p class="text-neutral-400 text-xs">Residencial El Golf</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 2 -->
+<div class="space-y-6">
+<div class="flex text-gold-accent">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-neutral-600 italic">"Como desarrollador inmobiliario, busco partners confiables. AW Contratistas superó mis expectativas en calidad y cumplimiento de cronograma."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="A sharp, professional headshot of a male architect in his 50s. He is wearing a minimalist black turtleneck and glasses. Looking confident and creative. Architectural office background with blueprints softly blurred. Clean, modern aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1SjSAK6o3s1PcbXTs3mXqiy6vbn1DQUkYlO6a0IOhoqAEY4kD8RKDjMaR_2_l8qqQeNmd1sXaOZg_qscrGPh_LMRXofJhHpidDEWQahs8KPGtGqIgwHQZLKr8ExcHQ9JCuSHOiDRzZ5_yMQbTGDa0MoPEfwt7BZP0645A62n7mfGK2i1v3gjkbiO6hirNCHqvtm2BHLA84N-i16gPGE9kwv7yfGBl42kDRU3TbvCpg0JnHkAO_PZojcNUZ1HSwE4o_sOClHTCIGeN"/>
+</div>
+<div>
+<p class="font-bold text-sm">Roberto Sanchez</p>
+<p class="text-neutral-400 text-xs">Inmobiliaria Vista Azul</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 3 -->
+<div class="space-y-6">
+<div class="flex text-gold-accent">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-neutral-600 italic">"Su asesoría en diseño fue clave. Lograron captar exactamente lo que quería para mi nuevo showroom en el centro de Trujillo."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="A portrait of a stylish young Peruvian entrepreneur in her 30s. She has a vibrant, creative energy. Wearing a fashionable earth-toned outfit. Urban chic background in a daylight setting. High-quality lifestyle photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9lVhc8ELez2ZDReraG0iJItjnhgjV3yh7SI0SWOQF2fASWGSy1uB4qtqPEu6YmGyfLiyiL4ozeZQlJTlAmnZzWzdgX36rPuSTpO3YJHGUGubhaiZ-jAddxzkCGCPihWcYlmw3cfXb_xPnzKnQvHSAhXKUzj9nKKCE7UWRGITBcdZ2uk_mmNO2r7qkHz06Kt-8q6rtH3zjvYCvFf1nlKpYWA0FDQwLECgq35j6EZOk-ltrLgmOhNvWcp0bz_8FgipCtCsNhhbfaGMu"/>
+</div>
+<div>
+<p class="font-bold text-sm">Carla Mendez</p>
+<p class="text-neutral-400 text-xs">Emprendedora</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ -->
+<section class="py-24 bg-neutral-50">
+<div class="max-w-3xl mx-auto px-6">
+<h2 class="text-4xl font-headline font-extrabold text-center mb-12">Preguntas Frecuentes</h2>
+<div class="space-y-4">
+<details class="group bg-white rounded-xl shadow-sm border border-neutral-100 overflow-hidden" open="">
+<summary class="flex justify-between items-center p-6 cursor-pointer list-none">
+<span class="font-bold text-lg">¿Cuánto tiempo toma una remodelación promedio?</span>
+<span class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+</summary>
+<div class="p-6 pt-0 text-neutral-500 border-t border-neutral-50">
+                        Depende de la magnitud. Una remodelación de cocina suele tomar entre 4 a 6 semanas, mientras que una casa completa puede variar de 3 a 6 meses. Siempre entregamos un cronograma detallado al inicio.
+                    </div>
+</details>
+<details class="group bg-white rounded-xl shadow-sm border border-neutral-100 overflow-hidden">
+<summary class="flex justify-between items-center p-6 cursor-pointer list-none">
+<span class="font-bold text-lg">¿Trabajan fuera de Trujillo?</span>
+<span class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+</summary>
+<div class="p-6 pt-0 text-neutral-500 border-t border-neutral-50">
+                        Nuestra base principal es Trujillo, pero atendemos proyectos especiales en todo el norte del Perú (Chiclayo, Piura) y Lima bajo previa coordinación.
+                    </div>
+</details>
+<details class="group bg-white rounded-xl shadow-sm border border-neutral-100 overflow-hidden">
+<summary class="flex justify-between items-center p-6 cursor-pointer list-none">
+<span class="font-bold text-lg">¿Cómo se manejan los pagos del proyecto?</span>
+<span class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+</summary>
+<div class="p-6 pt-0 text-neutral-500 border-t border-neutral-50">
+                        Manejamos un sistema de valorizaciones por hitos logrados. Normalmente se requiere un adelanto inicial para materiales y el resto se abona conforme avance la obra.
+                    </div>
+</details>
+</div>
+</div>
+</section>
+<!-- Final CTA -->
+<section class="relative py-32 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<div class="w-full h-full bg-cover bg-center" data-alt="A dramatic high-angle view of a construction site at dusk. Workers in high-visibility gear and hardhats are meticulously installing premium finishes in a large modern building. Glowing lights and silhouettes create a sense of focused, high-quality craftsmanship. Golden hour lighting creates a warm, premium aesthetic." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDft31D6wFtQRxAZhFiyuvBvtyZnXbsOlMZo0hD0O4Lo3Mj4PthICG_GHDT2-Iq0QsvCi8daaFZMcLB6Z2t04GL38PnLi6SeRx1PyiAB3j2EJh3a8nVlcoQ74v5rblwoJ3VGvZpBJRyZV0E2qnlaLfcVHrZYL5Jai9_pipHOKPR4UqVp3MfE6ik2BqLgcm8tw2QhDeGaqEm9wWI32IqPhNyD747Dd3js9wCx7sa-Qt3ne6qACM8MJLfH0Jl5_vC2u2WreturQx_XDrq')"></div>
+<div class="absolute inset-0 bg-primary/90"></div>
+</div>
+<div class="relative z-10 max-w-4xl mx-auto px-6 text-center text-white space-y-8">
+<h2 class="text-5xl md:text-7xl font-headline font-extrabold leading-tight">¿Listo para elevar tu espacio?</h2>
+<p class="text-xl text-white/60">No postergues más el proyecto de tus sueños. Empecemos hoy mismo.</p>
+<div class="flex flex-col sm:flex-row justify-center gap-4 pt-6">
+<button class="gold-gradient text-black font-bold px-12 py-5 rounded-full shadow-2xl hover:scale-105 transition-transform uppercase tracking-widest text-sm">
+                    Solicitar Cotización Gratis
+                </button>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="py-24 bg-white" id="contacto">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
+<div class="space-y-8">
+<h2 class="text-4xl font-headline font-extrabold">Hablemos</h2>
+<p class="text-neutral-500">Visítanos en nuestras oficinas o envíanos un mensaje para agendar una visita técnica.</p>
+<div class="space-y-6">
+<div class="flex items-center gap-6">
+<div class="text-gold-accent" data-icon="location_on" data-weight="regular">
+<span class="material-symbols-outlined text-3xl">location_on</span>
+</div>
+<div>
+<p class="font-bold">Oficina Trujillo</p>
+<p class="text-neutral-500 text-sm">Av. Larco 1234, El Golf, Trujillo - Perú</p>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<div class="text-gold-accent" data-icon="mail" data-weight="regular">
+<span class="material-symbols-outlined text-3xl">mail</span>
+</div>
+<div>
+<p class="font-bold">Email</p>
+<p class="text-neutral-500 text-sm">proyectos@awcontratistas.com.pe</p>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<div class="text-gold-accent" data-icon="phone_iphone" data-weight="regular">
+<span class="material-symbols-outlined text-3xl">phone_iphone</span>
+</div>
+<div>
+<p class="font-bold">WhatsApp Directo</p>
+<p class="text-neutral-500 text-sm">+51 900 000 000</p>
+</div>
+</div>
+</div>
+<div class="rounded-2xl overflow-hidden h-64 border border-neutral-100 shadow-sm">
+<div class="w-full h-full bg-cover bg-center" data-alt="A stylized, minimalist architectural map of Trujillo, Peru, showing key urban areas like El Golf and Huanchaco. The map uses a clean black, white, and gold color scheme to match the brand identity. High-end infographic style." data-location="Trujillo, Peru" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAXdWkm29rOxqf5T8dxQYG9E0f6NixOSn5HywIFm-acT6VFFPw7L4wCv2V9h2h-trr6epfJMigOVZGbQgctZRFHl4joOFQ6dQVmTikUNu_nwUaRVpGg-aYPVaw0Q2kq0Mdow_M-18P5uhlp5hS6lExnmqrp_ZNzv-PALsVfMkK2_W8AvxWY4i4A9UCV4zu3Ls1iPolY4glz84U89zZDsec8AV8vAi99kDjNcrZ1jKECAqhY5uLjKlW1EVr22TmVLyDfKqdch5sgpSre')"></div>
+</div>
+</div>
+<div class="bg-neutral-50 p-8 md:p-12 rounded-3xl border border-neutral-100">
+<form class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="text-xs font-bold uppercase tracking-widest text-neutral-400">Nombre Completo</label>
+<input class="w-full bg-white border-none rounded-xl p-4 focus:ring-2 focus:ring-gold-accent" placeholder="Tu nombre" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-bold uppercase tracking-widest text-neutral-400">Celular</label>
+<input class="w-full bg-white border-none rounded-xl p-4 focus:ring-2 focus:ring-gold-accent" placeholder="900 000 000" type="tel"/>
+</div>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-bold uppercase tracking-widest text-neutral-400">Tipo de Proyecto</label>
+<select class="w-full bg-white border-none rounded-xl p-4 focus:ring-2 focus:ring-gold-accent">
+<option>Remodelación</option>
+<option>Construcción Nueva</option>
+<option>Diseño de Interiores</option>
+<option>Otro</option>
+</select>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-bold uppercase tracking-widest text-neutral-400">Mensaje</label>
+<textarea class="w-full bg-white border-none rounded-xl p-4 focus:ring-2 focus:ring-gold-accent" placeholder="Cuéntanos brevemente sobre tu idea..." rows="4"></textarea>
+</div>
+<button class="w-full bg-primary text-white font-bold py-5 rounded-xl hover:bg-neutral-800 transition-colors uppercase tracking-widest text-sm shadow-xl" type="submit">
+                            Enviar Solicitud
+                        </button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-primary text-white py-16 border-t border-white/5">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex flex-col md:flex-row justify-between items-center gap-8 mb-12">
+<div class="flex items-center gap-2">
+<div class="text-gold-accent" data-icon="Architecture" data-weight="fill">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">architecture</span>
+</div>
+<h1 class="font-headline font-extrabold text-2xl tracking-tight">AW CONTRATISTAS</h1>
+</div>
+<div class="flex gap-8">
+<a class="text-white/40 hover:text-white transition-colors" href="#">Instagram</a>
+<a class="text-white/40 hover:text-white transition-colors" href="#">Facebook</a>
+<a class="text-white/40 hover:text-white transition-colors" href="#">LinkedIn</a>
+</div>
+</div>
+<div class="text-center text-white/20 text-xs border-t border-white/5 pt-12">
+                © 2024 AW Contratistas S.A.C. Todos los derechos reservados. Trujillo, Perú.
+            </div>
+</div>
+</footer>
+<script>
+        // Before and After Slider Script
+        const slider = document.querySelector('.before-after-slider');
+        const handle = document.getElementById('slider-handle');
+        const overlay = document.getElementById('slider-overlay');
+
+        if (slider && handle && overlay) {
+            const move = (e) => {
+                let x = e.type.includes('touch') ? e.touches[0].clientX : e.clientX;
+                let rect = slider.getBoundingClientRect();
+                let position = ((x - rect.left) / rect.width) * 100;
+
+                if (position >= 0 && position <= 100) {
+                    handle.style.left = `${position}%`;
+                    overlay.style.width = `${position}%`;
+                }
+            };
+
+            slider.addEventListener('mousedown', () => {
+                window.addEventListener('mousemove', move);
+            });
+
+            window.addEventListener('mouseup', () => {
+                window.removeEventListener('mousemove', move);
+            });
+
+            slider.addEventListener('touchstart', () => {
+                window.addEventListener('touchmove', move);
+            });
+
+            window.addEventListener('touchend', () => {
+                window.removeEventListener('touchmove', move);
+            });
+        }
+
+        // Smooth Scroll Micro-interaction
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body></html>
